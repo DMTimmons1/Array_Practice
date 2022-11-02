@@ -46,3 +46,8 @@ puts is_working
 # witth our shift method
 
 puts friend_weights[2]
+
+# An additional array method I found was sample. This
+# method prints a random element from the array.
+
+puts friend_names.sample
