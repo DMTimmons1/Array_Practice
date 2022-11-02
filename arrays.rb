@@ -37,3 +37,12 @@ puts friend_weights
 
 is_working.unshift(false)
 puts is_working
+
+# we can also directly call onto any element in an array
+# by selecting it's index postion. Index positions start
+# at 0 and count up from there. For my example, I indexed
+# the last position of my friend_weights. The reason this is
+# index 2 and not 3 is because we removed the first index
+# witth our shift method
+
+puts friend_weights[2]
